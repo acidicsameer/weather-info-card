@@ -1,0 +1,84 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+.weather{
+   
+    margin-left:550px;
+    margin-top:100px;
+    height:425px;
+    width:450px;
+   background: url('sunset.jpg');
+    background-size: 100% 100%;
+border:1px solid black;
+border-radius: 10px;
+box-sizing: border-box;
+box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.weather img{
+  filter:brightness(1.1),saturate(1.5) contrast(1.9) invert(200px);
+}
+.image{
+    height:200px;
+    margin: 10px 100px 10px 100px;
+    box-sizing: border-box;
+}
+.wtext{
+    margin-top:25px;            
+    font-weight: 600;
+   letter-spacing: 1.2px;
+    font-size:30px;
+    color:rgb(10, 9, 9);
+    text-align: center;
+    box-sizing: border-box;
+   
+    
+}
+.grid{
+  margin: 20px;
+    display:grid;
+grid-template-columns: repeat(5,1fr);
+height:115px;
+column-gap: 10px;
+box-sizing: border-box;
+
+}
+
+.griditem1{
+    color:rgb(10, 9, 9);
+    /* background: #000; */
+    border-right: 4px solid white;
+   
+    
+}
+.griditem2{
+    color:rgb(10, 9, 9);
+    border-right: 4px solid white;
+    
+}
+.griditem3{
+    color:rgb(10, 9, 9);
+    border-right:4px solid white;
+}
+.griditem4{
+    color:rgb(10, 9, 9);
+    border-right: 4px solid white;
+    
+  
+    
+}
+.griditem5{
+    color:rgb(10, 9, 9);
+  
+    
+}
+
+.grid img{
+    margin:10px;
+    height:40px;
+
+}
+
